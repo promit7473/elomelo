@@ -1,0 +1,17 @@
+names:
+- bicycle
+- bus
+- car
+- motorbike
+- person
+nc: 5
+path: ../street_view_dataset_small
+roboflow:
+  license: CC BY 4.0
+  project: street-view-gdogo
+  url: https://universe.roboflow.com/fsmvu/street-view-gdogo/dataset/1
+  version: 1
+  workspace: fsmvu
+test: test/images
+train: train/images
+val: test/images
